@@ -29,7 +29,7 @@ namespace Individual
             {
                 dg1.Rows.Clear();
                 dg2.Rows.Clear();
-                Count = int.Parse(toolStripTextBox1.Text);
+                Count = int.Parse(toolStripTextBox1.Text)-1;
                 Step = 1 / (double)Count;
 
                 Points = new List<PointD>();
